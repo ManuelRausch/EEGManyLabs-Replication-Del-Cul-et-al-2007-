@@ -1,0 +1,2 @@
+Preliminary code for the #EEGManyLabs replication project regarding Del Cul, A., Baillet, S., & Dehaene, S. (2007). Brain Dynamics Underlying the Nonlinear Threshold for Access to Consciousness. PLoS Biology, 5(10), 2408–2423. https://doi.org/10.1371/journal.pbio.0050260 
+If you are interested in joining the project, see here: https://docs.google.com/forms/d/e/1FAIpQLSdB4qNFa_LXsnki7XP2IrzdRy0X3Cw70cscxtPE80WGPGLynA/viewform?usp=dialog
