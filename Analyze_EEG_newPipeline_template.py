@@ -187,7 +187,7 @@ for i in tqdm(range(nSbjs)):
     events, event_id = mne.events_from_annotations(raw)
     soa_of_interest = round(a[3]) # parameter a[3] = inflection point = threshold according to Del Cul et al. 
 
-    target_rows = np.where( events[:, 2] == 10006)[0]  # somehow excludes target absent triasl
+    target_rows = np.where( events[:, 2] == 10)[0]  # somehow excludes target absent triasl
     vis = Data["Visibility"].to_numpy().astype(int)   # 0/1
     soa = Data["soa"].to_numpy()
     target = Data["target"].notna()

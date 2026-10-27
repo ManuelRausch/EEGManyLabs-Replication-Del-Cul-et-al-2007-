@@ -1,7 +1,6 @@
 ######### EEGManyLabs: Replication of Del Cul et al. 2007  ####################
 ################################################################################
 
-# Analyse Pilot to prepare analysis script
 # Manuel Rausch, 2026-10-14
 # This script will be adapted for each participating lab that submits a dataset. 
 
@@ -156,7 +155,7 @@ for i in tqdm(range(nSbjs)):
     #B3 Extract events
     
     events, event_id = mne.events_from_annotations(raw)
-    mask_rows = np.where( events[:, 2] == 10004)[0]  # somehow excludes target absent triasl
+    mask_rows = np.where( events[:, 2] == 20)[0]  # somehow excludes target absent triasl
     
     bids_path = BIDSPath(subject = subj, 
                          task="Default", session="001",run='001',
